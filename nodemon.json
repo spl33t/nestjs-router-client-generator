@@ -1,0 +1,6 @@
+{
+  "watch": ["./src", "./lib"],
+  "ext": "ts, json",
+  "ignore": ["src/**/*.spec.ts", "./api.ts"],
+  "exec": "ts-node-esm -r dotenv/config --experimental-specifier-resolution=node ./lib/index.ts"
+}
